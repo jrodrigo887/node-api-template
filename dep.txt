@@ -1,0 +1,11 @@
+ "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@typescript-eslint/eslint-plugin": "^8.18.2",
+    "@typescript-eslint/parser": "^8.18.2",
+    "eslint": "^9.17.0",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@types/module-alias": "^2.0.4",
+    "module-alias": "^2.2.3"
+  }
