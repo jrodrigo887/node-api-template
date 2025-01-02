@@ -6,14 +6,14 @@ module.exports = [
   {
     files: ['./src/**/*.ts', './test/**/*.ts'], // Aplica-se a arquivos TypeScript
     languageOptions: {
-      parser: require('@typescript-eslint/parser'), // Parser para TypeScript
+      // parser: require('@typescript-eslint/parser'), // Parser para TypeScript
       parserOptions: {
         ecmaVersion: 2020,
         sourceType: 'module',
       },
     },
     plugins: {
-      '@typescript-eslint': require('@typescript-eslint/eslint-plugin'), // Plugin TypeScript
+      // '@typescript-eslint': require('@typescript-eslint/eslint-plugin'), // Plugin TypeScript
       // Adicione outros plugins aqui, se necessário
     },
     rules: {

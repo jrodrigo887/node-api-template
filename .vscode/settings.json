@@ -3,9 +3,11 @@
   "editor.insertSpaces": true,
   "editor.formatOnSave": true,
   "editor.detectIndentation": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "always"
   },
+  "files.autoSave": "onFocusChange",
   "eslint.validate": [
     "javascript",
     "typescript",

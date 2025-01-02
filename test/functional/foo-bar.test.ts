@@ -1,13 +1,16 @@
-import supertest from "supertest";
-// import { App } from "supertest/types";
+describe('Foo bar', () => {
+  it('SHould return foo bar controller', async () => {
+    const { status, body } = await global.testRequest.get('/api');
+    const bodyObj = {
+      data: {
+        name: 'Joao',
+        id: 32,
+        age: 37,
+        code: '3256-64893-4563',
+      },
+    };
 
-const app = ""
-
-describe("Foo bar", () => {
-  it("SHould return foo bar", async () => {
-    const { status } = await supertest(app).get("/foobar");
-    const body = {};
-    expect(status).toBe(200)
-    expect(body).toBe({})
-  })
-})
+    expect(status).toBe(200);
+    expect(body).toEqual(bodyObj);
+  });
+});
